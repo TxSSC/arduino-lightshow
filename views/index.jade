@@ -1,0 +1,59 @@
+!!! html
+html
+  head
+    title Lightshow
+
+    meta(name="viewport", content="width=device-width,initial-scale=1, maximum-scale-1")
+
+    link(rel="stylesheet", href="css/base.css")
+    link(rel="stylesheet", href="css/skeleton.css")
+    link(rel="stylesheet", href="css/layout.css")
+    link(rel="stylesheet", href="css/main.css")
+    
+    script(src="/socket.io/socket.io.js")
+    script(src="/js/jquery-1.7.2.min.js")
+    script(src="/js/main.js")
+
+  body
+
+    .container
+      .sixteen.columns.cf.programs
+        .three.columns.alpha
+          span#bassHit Bass Hit
+        .three.columns
+          span#inverseBassHit Inverse Bass Hit
+        .three.columns
+          span#bassBuildUp Bass Build Up
+        .three.columns
+          span#breather Breather
+        .three.columns
+          span#candle Candle Flicker
+
+      .sixteen.columns.cf.lights
+        .five.columns.alpha &nbsp;
+        .six.columns
+          span#ledTop Top
+
+      .sixteen.columns.cf.lights
+        .six.columns.alpha &nbsp;
+        .four.columns
+          span#led3 Three
+
+      .sixteen.columns.cf.lights
+        .four.columns.alpha
+          span#led1 One
+        .four.columns
+          span#led2 Two
+        .four.columns
+          span#led4 Four
+        .four.columns.omega
+          span#led5 Five
+
+      .sixteen.columns.cf.lights
+        .eight.columns.alpha
+          span#ledLeft Left
+        .eight.columns.omega
+          span#ledRight Right
+
+      .sixteen.columns.cf.lights
+        span#ledAll All
