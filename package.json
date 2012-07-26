@@ -1,0 +1,16 @@
+{
+  "name": "arduino-lightshow",
+  "version": "0.0.1",
+  "dependencies": {
+    "serialport": "0.7.5",
+    "express": "2.5.9",
+    "jade": "*",
+    "socket.io": "*"
+  },
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "v0.8.x"
+  }
+}
